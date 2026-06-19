@@ -39,7 +39,7 @@ brew install --cask claude-codex-usage-bar ## 管理者権限が必要
 
 ```sh
 brew update
-brew upgrade --cask claude-codex-usage-bar
+brew upgrade --cask claude-codex-usage-bar ## 管理者権限が必要
 ```
 
 ## アンインストール
@@ -50,14 +50,9 @@ brew uninstall --cask claude-codex-usage-bar  ## 管理者権限が必要
 
 ## 開発者向け
 
-cask の情報を確認します。
+cask の情報を確認、検証する
 
 ```sh
 brew info --cask claude-codex-usage-bar
-```
-
-cask を audit します。
-
-```sh
 brew audit --cask claude-codex-usage-bar
 ```
