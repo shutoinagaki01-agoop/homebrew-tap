@@ -6,7 +6,7 @@
 
 ### claude-codex-usage-bar
 
-Claude と Codex の使用状況をメニューバーで確認するアプリです。
+Claude と Codex の使用状況をメニューバーで確認するアプリ
 
 - アプリ: `ClaudeCodexUsageBar.app`
 - バージョン: `0.1.0`
@@ -33,6 +33,7 @@ brew install --cask claude-codex-usage-bar ## 管理者権限が必要
 1. `システム設定` を開く
 2. `プライバシーとセキュリティ` を開く
 3. `セキュリティ` から `ClaudeCodexUsageBar.app` の実行を許可する
+    - 許可する欄がない場合は、普通にアプリを立ち上げた後で再度確認してください
 
 ## アップデート
 
@@ -44,10 +45,8 @@ brew upgrade --cask claude-codex-usage-bar
 ## アンインストール
 
 ```sh
-brew uninstall --cask claude-codex-usage-bar
+brew uninstall --cask claude-codex-usage-bar  ## 管理者権限が必要
 ```
-
-アンインストール時に、起動中の `ClaudeCodexUsageBar.app` の終了を試みます。
 
 ## 開発者向け
 
