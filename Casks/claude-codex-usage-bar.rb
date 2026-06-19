@@ -11,5 +11,9 @@ cask "claude-codex-usage-bar" do
 
   app "ClaudeCodexUsageBar.app"
 
-  uninstall quit: "com.example.ClaudeCodexUsageBar"
+  uninstall quit:   "com.example.ClaudeCodexUsageBar",
+            signal: [
+              ["TERM", "com.example.ClaudeCodexUsageBar"],
+              ["KILL", "com.example.ClaudeCodexUsageBar"],
+            ]
 end
