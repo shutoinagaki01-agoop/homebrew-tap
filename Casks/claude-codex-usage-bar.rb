@@ -7,7 +7,9 @@ cask "claude-codex-usage-bar" do
   desc "Menu bar app for Claude and Codex usage"
   homepage "https://github.com/shutoinagaki01-agoop/ClaudeCodexUsageBar"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "ClaudeCodexUsageBar.app"
+
+  uninstall quit: "com.example.ClaudeCodexUsageBar"
 end
