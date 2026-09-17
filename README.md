@@ -9,7 +9,7 @@
 Claude と Codex の使用状況をメニューバーで確認するアプリ
 
 - アプリ: `ClaudeCodexUsageBar.app`
-- バージョン: `0.5.1`
+- バージョン: `0.6.0`
 - 要件: macOS Montery 12 以降
 - Upstream: https://github.com/shutoinagaki01-agoop/ClaudeCodexUsageBar
 
