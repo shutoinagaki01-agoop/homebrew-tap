@@ -1,6 +1,6 @@
 cask "claude-codex-usage-bar" do
   version "0.8.0"
-  sha256 "596aa27c20749e21dcd19dd3fafd8f0163d2dbd95683c81807f1c798ed0aeba8"
+  sha256 "81130696e18fa5316ef35adacf9fbf1b71534d782f62eb13e2b11ac2a559b9a1"
 
   url "https://github.com/shutoinagaki01-agoop/ClaudeCodexUsageBar/releases/download/v#{version}/ClaudeCodexUsageBar.zip"
   name "ClaudeCodexUsageBar"
